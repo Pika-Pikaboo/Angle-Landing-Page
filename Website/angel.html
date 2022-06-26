@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>My Angel</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div id="typed-strings">
+                <p>You're ... my Angel</p>
+                <p>Angel Baby Angel</p>
+                <p>You're my Angel Baby</p>
+                <p>Baby You're my Angel</p>
+                <p>Angel Baby ...</p>
+            </div>
+            <div class="typed-container">
+                <span id="typed" class="animate"></span>
+            </div>
+
+            <p class="animate">I didn't believe in angels until I met you.<br> I've met an angel in person.<br> I wish angels to come and meet you then realize <br>that they are not real angels</p>
+            <p class="letter animate">--- Marn Htet Zan ---
+                <br> To
+                <br> 💗 Julia 💗
+                <br> 💌
+                <br> With Love
+            </p>
+        </div>
+
+        <div class="right">
+            <img src="../KTCM/8.png" alt="Angel" class="image animate" draggable="false">
+        </div>
+    </div>
+
+    <script>
+        let typed = new Typed("#typed", {
+            stringsElement: "#typed-strings",
+            typeSpeed: 40,
+            backSpeed: 40,
+            backDelay: 2000,
+            loop: true,
+            showCursor: false,
+        });
+    </script>
+</body>
+
+</html>
